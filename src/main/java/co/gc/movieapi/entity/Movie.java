@@ -12,12 +12,9 @@ import org.springframework.lang.NonNull;
 public final class Movie {
 	
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY) @NonNull long id;
-	@NonNull
-	String title;
-	@NonNull
-	String category;
-	@NonNull
-	int quantity;
+	@NonNull String title;
+	@NonNull String category;
+	@NonNull int quantity;
 	
 	// constructors
 	public Movie() {
