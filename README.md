@@ -11,5 +11,4 @@ INSERT INTO movies (title, category, quantity) VALUES("c", "b", 20);
 INSERT INTO movies (title, category, quantity) VALUES("d", "b", 20);
 INSERT INTO movies (title, category, quantity) VALUES("e", "c", 20);
 INSERT INTO movies (title, category, quantity) VALUES("f", "c", 20);
-SELECT * FROM movies;
 ```
